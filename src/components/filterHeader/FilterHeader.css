@@ -1,0 +1,26 @@
+span.filter {
+    font-size: 0.9em;
+    background: var(--background);
+    color: var(--background-text);
+    border-radius: 15em;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    display: inline-block;
+    cursor: default;
+}
+
+span.filter-row-title {
+    font-size: 1em;
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+div.row {
+    margin: 1em 0;
+}
+
+span.filter:hover {
+    background: var(--background-hover);
+}
+

@@ -1,0 +1,27 @@
+table {
+    margin: 1em 0;
+    border: solid 1px var(--background);
+    border-collapse: collapse;
+    border-spacing: 0;
+    min-width: 40em;
+}
+
+table thead th {
+    background-color: var(--background);
+    border: solid 1px #eee;
+    color: var(--background-text);
+    padding: 0.6em;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+table tbody td {
+    border: solid 1px var(--background);
+    color: #333;
+    padding: 0.6em;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+table tbody td.center {
+    text-align: center;
+}

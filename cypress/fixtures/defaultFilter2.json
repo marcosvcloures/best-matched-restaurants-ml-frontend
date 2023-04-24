@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Deliciousgenix",
+        "customerRating": 4,
+        "distance": 1,
+        "price": 10,
+        "cuisine": {
+            "id": 11,
+            "name": "Spanish"
+        }
+    },
+    {
+        "name": "Deliciouszilla",
+        "customerRating": 4,
+        "distance": 1,
+        "price": 15,
+        "cuisine": {
+            "id": 2,
+            "name": "Chinese"
+        }
+    }
+]

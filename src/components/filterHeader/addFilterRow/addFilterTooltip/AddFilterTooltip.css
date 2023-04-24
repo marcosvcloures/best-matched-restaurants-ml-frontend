@@ -1,0 +1,61 @@
+div.add-filter-tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2.5em;
+    left: 50%;
+    right: 50%;
+    font-size: 0.9em;
+}
+
+div.add-filter-tooltip div.tooltip {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    min-width: 10em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 2px solid #bbb;
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-body {
+    flex-grow: 1;
+    border-bottom: 1px solid #aaa;
+    padding: 0.2em 0;
+    text-align: center;
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer {
+    padding: 0.2em 0;
+    text-align: right;
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer button {
+    padding: 0.5em 0.5em;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+    text-align: right;
+    background: white;
+    cursor: pointer;
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer button.red-hover {
+    border: 1px solid var(--button-cancel);
+    color: var(--button-cancel);
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer button.red-hover:hover {
+    background: var(--button-cancel);
+    color: #fff;
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer button.green-hover {
+    border: 1px solid var(--button-apply);
+    color: var(--button-apply);
+}
+
+div.add-filter-tooltip div.tooltip div.tooltip-footer button.green-hover:hover {
+    background: var(--button-apply);
+    color: #fff;
+}

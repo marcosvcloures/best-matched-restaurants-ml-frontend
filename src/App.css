@@ -1,0 +1,48 @@
+:root {
+    --background: hsl(180, 33%, 90%);
+    --background-hover: hsl(180, 33%, 70%);
+    --background-text: hsl(180, 33%, 20%);
+    --button-cancel: hsl(354, 60%, 55%);
+    --button-apply: hsl(144, 51%, 45%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.relative {
+    position: relative;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+input[type=text],
+select,
+option {
+    font-size: 1em;
+    padding: 0.3em;
+    border: none;
+    outline: none;
+}
+
+input[type=text]:focus-visible,
+select:focus-visible {
+    border: none;
+}

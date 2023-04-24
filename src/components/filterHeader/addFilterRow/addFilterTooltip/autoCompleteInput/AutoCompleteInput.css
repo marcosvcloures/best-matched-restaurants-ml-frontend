@@ -1,0 +1,19 @@
+ul.autocomplete {
+    font-size: 1em;
+    text-align: left;
+    top: 1em;
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    max-height: 15em;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+ul.autocomplete li:hover {
+    cursor: pointer;
+    background-color: var(--background-hover);
+}
