@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import type { Cuisine } from 'types/Cuisine'
 import type { FilterDefinition } from 'types/Filter'
 import { callOnEnter } from 'utils/Input'
