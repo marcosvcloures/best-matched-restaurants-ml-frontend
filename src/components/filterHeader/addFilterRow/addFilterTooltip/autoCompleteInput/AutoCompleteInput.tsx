@@ -9,10 +9,6 @@ function AutoCompleteInput ({ currentFilter, filterValue, updateFilterValue, add
   const [focusInput, setFocusInput] = useState(false)
   const [mouseInOptions, setMouseInOptions] = useState(false)
 
-  useEffect(() => {
-    return () => { console.log('unmount') }
-  }, [])
-
   function setOptionByClick (value: string): void {
     updateFilterValue(value)
     setFocusInput(false)
